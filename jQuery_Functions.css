@@ -1,0 +1,244 @@
+* {
+box-sizing: border-box;
+border:0px;
+margin:0px;
+padding:0px;
+}
+
+.wrapper{
+background-color: gray;
+margin:2%;
+width:1400px;
+height:800px;
+}
+.newbord{
+border: 8px solid green;
+}
+#title{
+width:300px;
+height:40px;
+/*border: 1px solid blue;*/
+font-size: 25px;
+display:inline-block;
+margin: 50px 50px 0px 50px;
+/*border: 2px solid green;*/
+}
+
+#death{
+  width:300px;
+  height:30px;
+  font-size: 25px;
+  margin:50px 50px 0px -20px;
+  color: red;
+  /*border: 3px solid yellow;*/
+  display:inline-block;
+}
+.merica_block{
+  width:300px;
+  height:45px;
+  /*border: 3px solid purple;*/
+  display: inline-block;
+}
+#merica{
+  width:100%;
+  height:100%;
+  font-size: 35px;
+  color: darkred;
+  /*border:3px solid yellow;*/
+}
+.saddam_block{
+  margin:20px;
+  width:200px;
+  height:200px;
+  border: 5px solid blue;
+  display:block;
+}
+#saddam{
+  width:100%;
+  height:100%;
+}
+.gaddafi_block{
+  margin:20px;
+  width:200px;
+  height:200px;
+  border: 5px solid purple;
+  font-size: 15px;
+  display:block;
+  color: red;
+  margin-bottom:5px;
+}
+#gaddafi{
+  height:100%;
+  width:100%;
+}
+.binladen_block{
+  margin:20px;
+  width:200px;
+  height:200px;
+  border: 5px solid blue;
+  display:block;
+}
+#binladen{
+  width:100%;
+  height:100%;
+}
+#hideorshowsaddam{
+  position: relative;
+  left: -507px;
+  bottom: 313px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 3px;
+}
+#clickme{
+  height: 30px;
+  width: 76px;
+  border: 2px solid green;
+  background-color: red;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+  bottom: 750px;
+  left: 1250px;
+  border-radius: 7px;
+}
+#hide{
+  position: relative;
+  left: 1036px;
+  bottom: 786px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 3px;
+}
+#show{
+  position: relative;
+  left: 975px;;
+  bottom: 760px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 3px;
+}
+#slidedown{
+  position: relative;
+  left: 118px;
+  bottom: 215px;
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 3px;
+}
+#slideup{
+  position: relative;
+  left: 22px;
+  bottom: 415px;
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 3px;
+}
+#toggleslide{
+  position: relative;
+  left: -59px;
+  bottom: 630px;
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 3px;
+}
+.baghdad_block{
+  height:300px;
+  width:300px;
+  border:3px solid blue;
+  position: relative; left:500px; top:-400px;
+}
+#baghdad{
+  height:100%;
+  width:100%;
+}
+.cave_block{
+  height:300px;
+  width:300px;
+  border:3px solid yellow;
+  position: relative; left:900px; top:-700px;
+}
+#cave{
+  height:100%;
+  width:100%;
+}
+#fade_out{
+  background-color: green;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:1150px; top:-800px;
+}
+#fade_in{
+  background-color: green;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:820px; top:-800px;
+}
+#add_class{
+  background-color: purple;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:820px; top:-1200px;
+}
+#before{
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:870px; top:-1375px;
+}
+#after{
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:824px; top:-1350px;
+}
+#append{
+  background-color: white;
+  color:blue;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:700px; top:-1325px;
+}
+#html{
+  background-color: white;
+  color:blue;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; left:650px; top:-1300px;
+}
+#attr{
+  background-color: yellow;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; top:-1250px;
+}
+#val{
+  background-color: yellow;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; top:-1250px;
+}
+#text{
+  background-color: yellow;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; top:-1250px;
+}
+#data{
+  background-color: yellow;
+  color:black;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative; top:-1250px;
+}
